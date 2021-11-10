@@ -237,10 +237,9 @@ padding: 15px 0;
     width: 190px; 
   }
   /* section 5 */
-#S5{
-  margin: 50px 200px;
-}
+
 .news{
+  margin-top: 20px;
   display: flex;
   flex-direction: row;  
   justify-content: space-around;
@@ -258,6 +257,9 @@ padding: 15px 0;
 }
 .brandlogo h4{
   color: rgb(114, 107, 107);
+}
+.cont{
+  padding: 10px;
 }
 .cont h4{
 color: rgb(114, 107, 107);
@@ -279,13 +281,101 @@ color: rgb(114, 107, 107);
   flex-direction: column;
 }
 .brandlogo img{
-  width: 110px;
+  width: 90px;
   padding: 20px;
+}
+/* footer  */
+footer{
+  background-image: url("./design-assets/bgk-footer.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    height: 800px; 
+    align-items: center;
+    justify-content: space-around;
+    color: beige;
+}
+.ftles{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  text-align: justify;
+}
+.ftsub{
+  padding: 50px;
+}
+.parpad{
+  line-height: 1.7rem;
+}
+.entlogo{
+  padding-top: 30px;
+}
+.ftsub input{
+  width: 180px;
+height: 30px;
+background: transparent;
+padding: 5px;
+border: 1px solid whitesmoke;
+}
+.inline{
+  display: inline;
+}
+.ftsub2 img{
+  width: 15px;
+  padding: 5px;
+}
+.ftfinal{
+  display: flex;
+  flex-direction: column;
 }
 
 
+.footer-basic{
+  display: flex;
+  flex-direction: row;
+}
+.footer-basic ul {
+  padding:0;
+  list-style:none;
+  text-align:center;
+  font-size:18px;
+  line-height:1.6;
+  margin-bottom:0;
+  display: flex;
+  flex-direction: row;
+}
 
+.footer-basic li {
+  padding:0 10px;
+}
 
+.footer-basic ul a {
+  color:inherit;
+  text-decoration:none;
+  opacity:0.8;
+}
+.footer-basic .copyright {
+  margin-top:15px;
+  text-align:left;
+  font-size:13px;
+  color:#aaa;
+  margin-bottom:0;
+}
+.ftnav{
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: left;
+}
+.ftnav p{  
+padding: 20px;
+}
+.ftcopy{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  text-align: left;
+}
 @media only screen and (min-width:768px) and (max-width:1023px){
   #S1{
     background-position: top center;
@@ -370,6 +460,26 @@ color: rgb(114, 107, 107);
       justify-content: space-around;
       row-gap: 15px;
     }
+    /* footer */
+    .footer{
+      background-image: url("./design-assets/bgk-footer.png");
+      background-repeat: no-repeat;
+      background-size: cover;
+      display: flex;
+      height: 900px; 
+      align-items: center;
+      justify-content: space-around;
+    }
+    .ftles {
+      font-size: small;
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+    }
+    .ftsub{
+      padding: 5px;
+    }
+    
   }
   
 
@@ -414,7 +524,7 @@ color: rgb(114, 107, 107);
       padding: 20px 20px ;
       text-align: center;
       background-position: top center;
-    margin:0 50px;
+    margin:0 1px;
     font-size: 0.8rem;
   }
     
@@ -429,27 +539,30 @@ color: rgb(114, 107, 107);
       width: 25px;
     }
     .expotab{
-        padding:15px;
+        padding:10px;
     }
     .expotab tr,
     .expotab td, 
     .expotab h5, 
     .expotab p,
     .expotab img {
-        padding: 5px;
+        padding: 2px;
     }
     
     /* Section 4:  MEET OUR TEAM */ 
     #S4{  
-      font-size: 0.8rem;   
+      padding: 20px 20px ;
+      text-align: center;
+      background-position: top center;
+    margin:0 1px;
+      font-size: 0.7rem;   
     }
     img.colleg {
-      width: 83px; 
-      height: 80px;
+      width: 73px; 
+      height: 75px;
     }
     #S5{
       font-size: 0.8rem;
-      margin: 50px 100px;
     }
     .line img{
       width: 75px;
@@ -466,5 +579,21 @@ color: rgb(114, 107, 107);
     .srink{
       height: 70px;
       width: 200px;
+    }
+    .footer{
+      background-image: url("./design-assets/bgk-footer.png");
+      background-repeat: no-repeat;
+      background-size: cover;
+      height: 1900px; 
+      justify-content: space-around;
+    }
+    .ftles {
+      font-size: small;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+    }
+    .ftsub{
+      padding: 5px;
     }
   }
