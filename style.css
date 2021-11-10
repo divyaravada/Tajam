@@ -1,0 +1,470 @@
+/* header Navbar  */
+header{ 
+  background-image: url("./design-assets/bgk-header.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  height: 500px; 
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+  background-position: top center;
+  position: relative;
+}
+.navh a{
+float: left;
+color: wheat;
+text-align: center;
+padding: 12px;
+text-decoration: none;
+font-size: 14px;
+font-weight: bold;
+margin-top: -10px;
+}
+.navh a:hover{
+  background-color: transparent;
+  color: aqua;
+}
+.navh a.active{
+  background-color: transparent;
+  color: aqua;
+}
+.right{
+  float: right;
+  padding-left:150px;
+}
+
+.headcen{
+text-align: center;
+margin:25px 250px;
+color: beige;
+line-height: 1.5rem;
+
+}
+hr{
+  width: 35px;
+background-color: aquamarine;
+}
+
+@media screen and (max-width: 800px) {
+  .navh a{
+    float: left;
+    text-align: center;
+    padding: 6px;
+    font-size: 8px;
+    }
+    
+.right{
+  float: right;
+  padding-left:75px;
+}
+.navh img{
+  width: 75px;
+}
+.headcen{
+margin:10px 125px;
+line-height: 1rem;
+}
+.headcen h1{
+  font-size: medium;
+}
+.headcen p{
+  font-size: small;
+}
+.lern{
+  font-size: .5rem;
+}
+}
+
+
+
+/* section 1 : OUR STORY */
+#S1{
+  background-position: top center;
+  position: relative;
+  padding: 10px;     
+  margin:50px 250px;
+}
+.story{
+  display: flex; 
+  flex-direction: row;
+  align-items: center;
+  column-gap: 65px;
+}
+.lern{
+  margin: 10px 0;
+  padding: 10px;
+  color: aquamarine;
+  font-weight: bolder;
+  border: 1px solid aquamarine;
+  background-color: transparent;
+}
+.lern:hover{
+  color: rgb(168, 226, 207);
+  background-color: transparent;
+}
+.scpt p{
+color: rgb(67, 78, 78);
+padding: 15px 0;
+}
+.scpt h2{
+    color: rgb(18, 21, 36);
+    padding: 15px 0;
+}
+
+/* SEection 2 OUR STORY VIDEO */
+#S2 { 
+    background-image: url("./design-assets/bgk-middle.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    height: 500px; 
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    background-position: top center;
+    position: relative;
+  }
+  .middle{
+    text-align: center;
+  }
+  .middle img{
+      width: 120px;
+      height: 120px;
+      padding: 10px;
+  }
+  .middle p{
+      padding: 10px;
+      font-weight: bolder;
+      color: white;
+  }
+
+  /* section 3: Expertise */
+#S3{
+    padding: 50px 50px ;
+    text-align: center;
+    background-position: top center;
+  margin:0 150px 0 150px;
+}
+  
+#S3 h2{
+     padding-bottom: 3px;
+     color: rgb(34, 31, 31);
+  }
+#S3 p{
+    color: gray;
+  }
+  .expotab{
+      padding:40px;
+  }
+  .expotab tr,
+  .expotab td, 
+  .expotab h5, 
+  .expotab p,
+  .expotab img {
+      padding: 15px;
+  }
+  .bordbot {
+    border-bottom:1px solid rgb(218, 227, 230);
+    border-right: 1px solid rgb(218, 227, 230);
+  }
+  .bordbot1 {
+    border-bottom:1px solid rgb(218, 227, 230);
+  }
+  .bordlr {
+    border-left:1px solid rgb(218, 227, 230) ;
+    border-right: 1px solid rgb(218, 227, 230);
+  }
+  .expotab td:hover{
+    background-color: rgb(245, 246, 248);
+    color: rgb(69, 75, 87);
+  }
+  .line{
+    color: rgb(236, 236, 236);
+    text-decoration-line: none;
+  }
+
+  /* Section 4:  MEET OUR TEAM */ 
+
+ #S4{
+    background-image: url("./design-assets/bgk-header.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    height: 700px; 
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-position: top center;
+    position: relative;
+  }
+  .line1{
+    color: rgb(236, 236, 236);
+    text-decoration-line: none;
+  }
+  .team{
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    margin-top: 25px;
+  }
+  .colist{
+  display: grid;
+  grid-template-columns:1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+  grid-column-gap: 10px;
+  margin-top: 35px;
+  margin-bottom: 55px;
+  }
+  div.setg {
+    border: thin silver solid;
+    font-size: 0.7rem;
+  }    
+  .setg h4{
+    color: rgb(202, 197, 197);
+    border: none;
+  }
+  .setg p{
+    margin-top: -10px;
+    color: rgb(202, 197, 197);
+  }
+  img.colleg {
+    width: 190px; 
+  }
+  /* section 5 */
+#S5{
+  margin: 50px 200px;
+}
+.news{
+  display: flex;
+  flex-direction: row;  
+  justify-content: space-around;
+}
+.brandlogo{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin-top: -30px;
+}
+.lineal{
+  display: flex;
+  flex-direction: row;
+  margin-left: -15px;
+}
+.brandlogo h4{
+  color: rgb(114, 107, 107);
+}
+.cont h4{
+color: rgb(114, 107, 107);
+}
+.cont input{
+  width: 95%;
+  padding: 10px;
+  margin:15px 0;
+  border: 1px solid rgb(219, 209, 209);
+}
+.srink{
+  border: 1px solid rgb(219, 209, 209);
+  resize: both;
+  height: 100px;
+  width: 400px;
+}
+.line{
+  display: flex;
+  flex-direction: column;
+}
+.brandlogo img{
+  width: 110px;
+  padding: 20px;
+}
+
+
+
+
+@media only screen and (min-width:768px) and (max-width:1023px){
+  #S1{
+    background-position: top center;
+    position: relative;
+    padding: 8px;     
+    font-size: small;
+  }
+  .story{
+    display: flex;  
+    flex-direction: column;
+    align-items: center;
+    column-gap: 65px;
+  }
+  .biglogo{
+     padding: 20px;
+  }
+  .scpt{
+      padding: 30px;
+  }
+  .lern{
+    margin: 8px 0;
+    padding: 8px;
+    
+  }
+  .scpt p{
+  padding: 15px 0;
+  }
+  .scpt h2{      
+      padding: 15px 0;
+  }
+  #S2{
+    font-size: small;
+  }
+ 
+  
+    /* section 3: Expertise */
+  #S3{
+      padding: 40px 40px ;
+      text-align: center;
+      background-position: top center;
+    margin:0 100px;
+    font-size: small;
+  }
+    
+  #S3 h2{
+       padding-bottom: 2px;
+       color: rgb(34, 31, 31);
+    }
+  #S3 p{
+      color: gray;
+    }
+    .expotab{
+        padding:30px;
+    }
+    .expotab tr,
+    .expotab td, 
+    .expotab h5, 
+    .expotab p,
+    .expotab img {
+        padding: 10px;
+    }
+    
+    /* Section 4:  MEET OUR TEAM */ 
+  
+   #S4{  
+      font-size: small;      
+    }
+    img.colleg {
+      width: 150px; 
+      height: 100px;
+    }
+    #s5{
+      font-size: small;
+      margin: 50px 100px;
+    }
+    img.line{
+      width: 100px;
+    }
+    .news{
+      display: flex;
+      flex-direction: column;  
+      justify-content: space-around;
+      row-gap: 15px;
+    }
+  }
+  
+
+@media only screen and (max-width:767px){
+  #S1{
+    background-position: top center;
+    position: relative;
+    padding: 5px;     
+    font-size: 0.8rem;
+    margin:25px 50px;
+  }
+  .story{
+    display: flex;  
+    flex-direction: column;
+    align-items: center;
+    column-gap: 50px;
+  }
+  .biglogo{
+     padding: 10px;
+  }
+  .scpt{
+      padding: 15px;
+  }
+  .lern{
+    margin: 4px 0;
+    padding: 4px;
+    
+  }
+  .scpt p{
+  padding: 7.5px 0;
+  }
+  .scpt h2{      
+      padding: 7.5px 0;
+  }
+  #S2{
+    font-size: 0.8rem;
+  }
+ 
+  
+    /* section 3: Expertise */
+  #S3{
+      padding: 20px 20px ;
+      text-align: center;
+      background-position: top center;
+    margin:0 50px;
+    font-size: 0.8rem;
+  }
+    
+  #S3 h2{
+       padding-bottom: 1px;
+       color: rgb(34, 31, 31);
+    }
+  #S3 p{
+      color: gray;
+    }
+    .expotab img{
+      width: 25px;
+    }
+    .expotab{
+        padding:15px;
+    }
+    .expotab tr,
+    .expotab td, 
+    .expotab h5, 
+    .expotab p,
+    .expotab img {
+        padding: 5px;
+    }
+    
+    /* Section 4:  MEET OUR TEAM */ 
+    #S4{  
+      font-size: 0.8rem;   
+    }
+    img.colleg {
+      width: 83px; 
+      height: 80px;
+    }
+    #S5{
+      font-size: 0.8rem;
+      margin: 50px 100px;
+    }
+    .line img{
+      width: 75px;
+    }
+    .news{
+      display: flex;
+      flex-direction: column;  
+      justify-content: space-around;
+      row-gap: 25px;
+    }
+    .cont input{
+      width: 200px;
+    }
+    .srink{
+      height: 70px;
+      width: 200px;
+    }
+  }
